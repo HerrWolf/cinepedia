@@ -15,7 +15,7 @@ class MovieMapper {
     popularity: moviedb.popularity,
     posterPath: (moviedb.posterPath != '')
       ? 'https://image.tmdb.org/t/p/w500${moviedb.posterPath}'
-      : 'https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/404-poster-not-found-CG17701-1.png',
+      : 'no-poster',
     releaseDate: moviedb.releaseDate,
     title: moviedb.title,
     video: moviedb.video,
